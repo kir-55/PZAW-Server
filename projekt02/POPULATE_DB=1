@@ -1,0 +1,41 @@
+Creating database tables
+test
+Server listening on http://localhost:8000
+Request GET /cards/
+[0mGET /cards/ [32m200[0m 6.059 ms - 647[0m
+Request GET /.well-known/appspecific/com.chrome.devtools.json
+[0mGET /.well-known/appspecific/com.chrome.devtools.json [33m404[0m 1.456 ms - 187[0m
+Request GET /cards/stolice-europejskie
+[0mGET /cards/stolice-europejskie [36m304[0m 2.404 ms - -[0m
+Request GET /.well-known/appspecific/com.chrome.devtools.json
+[0mGET /.well-known/appspecific/com.chrome.devtools.json [33m404[0m 0.669 ms - 187[0m
+Request POST /cards/stolice-europejskie/new
+[0mPOST /cards/stolice-europejskie/new [36m302[0m 1.301 ms - 55[0m
+Request GET /cards/stolice-europejskie
+[0mGET /cards/stolice-europejskie [32m200[0m 1.565 ms - 1181[0m
+Request GET /.well-known/appspecific/com.chrome.devtools.json
+[0mGET /.well-known/appspecific/com.chrome.devtools.json [33m404[0m 0.378 ms - 187[0m
+Request GET /cards/stolice-europejskie
+[0mGET /cards/stolice-europejskie [36m304[0m 1.128 ms - -[0m
+Request GET /.well-known/appspecific/com.chrome.devtools.json
+[0mGET /.well-known/appspecific/com.chrome.devtools.json [33m404[0m 0.353 ms - 187[0m
+Request GET /cards/stolice-europejskie
+[0mGET /cards/stolice-europejskie [36m304[0m 1.019 ms - -[0m
+Request GET /.well-known/appspecific/com.chrome.devtools.json
+[0mGET /.well-known/appspecific/com.chrome.devtools.json [33m404[0m 0.366 ms - 187[0m
+Request GET /cards/stolice-europejskie
+[0mGET /cards/stolice-europejskie [36m304[0m 0.963 ms - -[0m
+Request GET /.well-known/appspecific/com.chrome.devtools.json
+[0mGET /.well-known/appspecific/com.chrome.devtools.json [33m404[0m 0.381 ms - 187[0m
+Request GET /cards/stolice-europejskie
+[0mGET /cards/stolice-europejskie [36m304[0m 0.905 ms - -[0m
+Request GET /.well-known/appspecific/com.chrome.devtools.json
+[0mGET /.well-known/appspecific/com.chrome.devtools.json [33m404[0m 0.626 ms - 187[0m
+Request GET /cards/stolice-europejskie
+[0mGET /cards/stolice-europejskie [36m304[0m 0.942 ms - -[0m
+Request GET /.well-known/appspecific/com.chrome.devtools.json
+[0mGET /.well-known/appspecific/com.chrome.devtools.json [33m404[0m 0.437 ms - 187[0m
+Request GET /cards/stolice-europejskie
+[0mGET /cards/stolice-europejskie [36m304[0m 1.053 ms - -[0m
+Request GET /.well-known/appspecific/com.chrome.devtools.json
+[0mGET /.well-known/appspecific/com.chrome.devtools.json [33m404[0m 0.437 ms - 187[0m

@@ -1,0 +1,22 @@
+<%- include("head.partial.ejs") %>
+
+<main>
+  <h1><%= lesson.name %></h1>
+  <p><%= lesson.description%></p>
+  <% 
+    let embedUrl = lesson.video_url.replace("watch?v=", "embed/");
+  %>
+  <!-- <iframe src="<%= lesson.video_url %>" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> -->
+  <iframe
+    width="560"
+    height="315"
+    src="<%= embedUrl %>"
+    frameborder="0"
+    allowfullscreen
+  ></iframe>
+
+</main>
+
+<%- include("foot.partial.ejs") %>
+
+

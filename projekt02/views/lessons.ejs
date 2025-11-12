@@ -1,0 +1,12 @@
+<%- include("head.partial.ejs") %>
+
+<main>
+  <h1>Lekcje</h1>
+  <ul id="lessons">
+    <% lessons.forEach(function(lesson){ %>
+    <li><a href="/lesson/<%= lesson.id%>"><%= lesson.name %></li>
+    <% }) %>
+  </ul>
+</main>
+
+<%- include("head.partial.ejs") %>

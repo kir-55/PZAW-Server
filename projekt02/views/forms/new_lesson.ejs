@@ -1,0 +1,47 @@
+<form action="/new-lesson/" method="POST">
+  <div>
+    <label for="name">Name</label>
+    <input
+      type="text"
+      name="name"
+      id="name"
+      required
+      minlength="1"
+      maxlength="500"
+      <% if (locals.name){ %>
+      value="<%= name %>"
+      <% }%>
+    />
+  </div>
+  <div>
+    <label for="description">Description</label>
+    <input
+      type="text"
+      name="description"
+      id="description"
+      required
+      minlength="1"
+      maxlength="500"
+      <% if (locals.description){ %>
+      value="<%= description %>"
+      <% }%>
+    />
+  </div>
+    <div>
+    <label for="video_url">Video URL</label>
+    <input
+      type="text"
+      name="video_url"
+      id="video_url"
+      required
+      minlength="1"
+      maxlength="500"
+      <% if (locals.video_url){ %>
+      value="<%= video_url %>"
+      <% }%>
+    />
+  </div>
+  <div>
+    <button>Dodaj</button>
+  </div>
+</form>
