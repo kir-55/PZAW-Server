@@ -10,6 +10,10 @@ Platforma jest oparta na Node.js z wykorzystaniem frameworka Express.js.
 
 `npm install`
 
+## Wprowadzenie Testowych dannych
+
+`node utils/seeder.js`
+
 ## Uruchomienie Projektu
 
 `node index.js`
