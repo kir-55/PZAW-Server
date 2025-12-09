@@ -1,0 +1,28 @@
+<form action="/lesson/edit/<%= lesson.id %>" method="POST">
+    <% if (errors.length > 0) { %>
+        <% errors.forEach(function(error) { %>
+            <p style="color:red;"><%= error %></p>
+        <% }) %>
+    <% } %>
+  <div>
+    <label for="name">Nazwa Lekcji</label>
+    <input type="text" name="name" id="name" required minlength="1" maxlength="500"
+      value="<%= lesson.name %>"
+    />
+  </div>
+  <div>
+    <label for="description">Opis Lekcji</label>
+    <input type="text" name="description" id="description" required minlength="1" maxlength="500"
+      value="<%= lesson.description %>"
+    />
+  </div>
+    <div>
+    <label for="video_url">URL Filmu</label>
+    <input type="text" name="video_url" id="video_url" required minlength="1" maxlength="500"
+        value="<%= lesson.video_url %>"
+    />
+  </div>
+  <div>
+    <button>Aktualizuj</button>
+  </div>
+</form>

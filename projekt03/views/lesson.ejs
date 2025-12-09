@@ -1,0 +1,27 @@
+<%- include("head.partial.ejs") %>
+
+<main>
+  <h1><%= lesson.name %></h1>
+  <p><%= lesson.description %></p>
+  <% 
+    let embedUrl = lesson.video_url.replace("watch?v=", "embed/");
+  %>
+
+  <iframe
+    width="560"
+    height="315"
+    src="<%= embedUrl %>"
+    frameborder="0"
+    allowfullscreen
+  ></iframe>
+
+  <h2>Edytuj Lekcje</h2>
+  <%- include("forms/edit_lesson.ejs")%>
+
+  <h2>Usuń Lekcje</h2>
+  <%- include("forms/delete_lesson.ejs")%>
+</main>
+
+<%- include("foot.partial.ejs") %>
+
+
